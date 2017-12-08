@@ -1,0 +1,107 @@
+$primary-colour: #3b5998;
+$primary-light: #dfe3ee;
+$primary-accent: #8b9dc3;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    border-bottom: 2px solid $primary-accent;
+    z-index: 2;
+	position: fixed;
+    width: 100%;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+    padding: 0;
+    margin: 0;
+	background-color: $primary-colour;
+    color: white;
+    padding: .25rem;
+    box-shadow: 1px 2px 6px $primary-accent;
+}
+span{
+    font-weight: bold;
+    color: $primary-colour;
+}
+.contact-name{
+    color: $primary-colour;
+}
+.column-list {
+	position: fixed;
+	z-index: 1;
+	float: left;
+	width: 20%;
+    min-width: 230px;
+	height: 100%;
+	overflow: scroll;
+	background-color: $primary-light;
+    border-right: 1px solid $primary-colour
+}
+.details {
+	position: fixed;
+	display: inline-block;
+	width: 78%;
+    margin-left: 22%;
+}
+.contact-details {
+	margin-top: 4%;
+	position: fixed;
+	padding-left: 22%;
+}
+.contact-details h1{
+    margin: 0;
+}
+.contact-photo{
+    padding-bottom: 10px;
+}
+.contact-photo img{
+    width: 75%;
+}
+.message {
+	text-align: left;
+    padding-top: 4%;
+	font-size: 24px;
+}
+.column-image {
+	display: inline-block;
+	width: 20%;
+}
+.column-image img{
+    border-radius: 50%;    
+}
+.column-data {
+	display: inline-block;
+	padding-left: 20px;
+}
+.scroll {
+	text-align: center;
+}
+img{
+    border: solid 1px $primary-colour;
+    box-shadow: 1px 4px 6px $primary-accent;
+}
+.contact {
+	display: inline-block;
+	width: 100%;
+}
+ul {
+	list-style-type: none;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+}
+.footer {
+    border-top: 2px solid $primary-accent;
+	position: fixed;
+	z-index: 2;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: $primary-colour;
+    color: white;
+    padding: 10px;
+	text-align: center;
+}
